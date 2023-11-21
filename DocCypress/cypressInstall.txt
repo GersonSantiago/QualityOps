@@ -1,0 +1,18 @@
+Passos Instalação do Cypress
+
+1° Crie um novo diretório para o seu projeto e navegue até ele no terminal:
+
+mkdir DocCypress
+cd DocCypress
+
+2° Inicie um novo projeto npm com o comando abaixo:
+
+npm init -y
+
+3° Instale o Cypress com comando baixo:
+
+npm install cypress --save-dev
+
+4° Abra o Cypress pela primeira vez com comando baixo:
+
+npx cypress open

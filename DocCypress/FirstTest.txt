@@ -1,0 +1,14 @@
+Crie um novo arquivo de teste em cypress/e2e (por exemplo, example_spec.js).
+
+Escreva um teste simples:
+
+javascript
+
+
+describe('My First Test', () => {
+  it('Visits the Cypress example page', () => {
+    cy.visit('https://example.cypress.io');
+    cy.contains('type').click();
+    cy.url().should('include', '/commands/actions');
+  });
+});

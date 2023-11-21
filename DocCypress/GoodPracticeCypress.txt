@@ -1,0 +1,23 @@
+Use Cypress Commands:
+Aproveite os comandos Cypress integrados para interagir com elementos e validar comportamentos.
+
+
+Evite o Uso de sleep:
+Evite pausas desnecessárias em seus testes. Use comandos Cypress como cy.wait() apenas quando necessário.
+
+Organize seus Testes:
+Agrupe seus testes usando describe para facilitar a navegação e compreensão.
+
+Ambientes de Teste Configuráveis:
+Utilize variáveis de ambiente para configurar URLs ou outros parâmetros específicos de ambiente.
+
+Mocking de Dados:
+Use o comando cy.intercept() para simular respostas de API e garantir que seus testes sejam consistentes.
+
+Centralize Comandos Personalizados:
+Se você criar comandos Cypress personalizados, armazene-os no diretório cypress/support para facilitar a manutenção.
+
+Execução em Headless Mode:
+Execute seus testes no modo headless (npx cypress run) para integração contínua.
+
+Lembre-se de consultar a documentação oficial do Cypress para obter informações detalhadas sobre os recursos e as práticas recomendadas.

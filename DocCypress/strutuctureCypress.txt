@@ -1,0 +1,9 @@
+Passo 2: Estrutura de Diretórios Padrão
+
+O Cypress usa uma estrutura de diretórios simples:
+
+cypress/e2e: Armazena seus arquivos de teste.
+
+cypress/support: Contém arquivos de suporte, como comandos personalizados e configurações.
+
+cypress/plugins: Se necessário, pode conter arquivos de plugins.
